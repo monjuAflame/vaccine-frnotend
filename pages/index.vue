@@ -1,7 +1,7 @@
 <template>
   <div>
-    <h1 v-if="apiValue">Check: {{ apiValue }}</h1>
-    <button @click.prevent="getBackendRequest()" >click</button>
+    <!-- <h1 v-if="apiValue">Check: {{ apiValue }}</h1>
+    <button @click.prevent="getBackendRequest()" >click</button> -->
   <Tutorial/>
   </div>
 </template>
